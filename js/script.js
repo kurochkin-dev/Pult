@@ -5,13 +5,10 @@ $(document).ready(function () {
       el: '.swiper-pagination',
       clickable: true,
     },
-    loop: true,
-    autoPlay: {
-      delay: 1000,
+    autoplay: {
+      delay: 1500,
       disableOnInteraction: false,
     },
-    slidesPerView: 1,
-    speed: 500,
 
   });
 
@@ -20,13 +17,11 @@ $(document).ready(function () {
       el: '.swiper-pagination',
       clickable: true,
     },
-    loop: true,
-    autoPlay: {
-      delay: 1000,
+    autoplay: {
+      delay: 1500,
       disableOnInteraction: false,
     },
-    slidesPerView: 1,
-    speed: 500,
+
   });
 
   $('.menu__item').mouseover(function () {
